@@ -15,7 +15,7 @@ async def main():
         while True:
             await client.send_message(user_id, 'Райзен какашка')
             await client.send_message(user_id, 'Райзен какашка')
-            await asyncio.sleep(30)
+            await asyncio.sleep(5)
 
 # Run the main function
 asyncio.run(main())
